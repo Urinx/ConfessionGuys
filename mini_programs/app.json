@@ -9,12 +9,12 @@
     "list": [{
       "pagePath": "pages/index/index",
       "text": "首页",
-      "iconPath": "imgs/tab1.png",
+      "iconPath": "imgs/tab1_b.png",
       "selectedIconPath": "imgs/tab1.png"
     }, {
       "pagePath": "pages/about/about",
       "text": "关于",
-      "iconPath": "imgs/tab2.png",
+      "iconPath": "imgs/tab2_b.png",
       "selectedIconPath": "imgs/tab2.png"
     }],
     "backgroundColor": "#f1b64e",
