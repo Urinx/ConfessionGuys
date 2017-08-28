@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/result/result",
+    "pages/about/about",
+    "pages/content/content"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "imgs/tab1.png",
+      "selectedIconPath": "imgs/tab1.png"
+    }, {
+      "pagePath": "pages/about/about",
+      "text": "关于",
+      "iconPath": "imgs/tab2.png",
+      "selectedIconPath": "imgs/tab2.png"
+    }],
+    "backgroundColor": "#f1b64e",
+    "selectedColor": "#ffffff",
+    "borderStyle": "white"
+  },
+  "window": {
+    "backgroundColor": "#f1b64e",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f1b64e",
+    "navigationBarTitleText": "告白小人",
+    "navigationBarTextStyle":"light"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

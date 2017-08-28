@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="icon_frame">
+    <image class="icon" src="../../imgs/icon.jpg" background-size="cover"></image>
+</view>
+
+<view class="input_text">
+    <input placeholder="Ta 的名字" bindinput="listen_input_name" />
+    <textarea placeholder="请输入你想说的话，每行字数控制在五个以内，行数尽量为三行效果最佳。名字可为空，当内容为空时则会显示默认的一段无聊文字。" bindinput="listen_input_text" />
+</view>
+
+<view class="gen_picture">
+    <button bindtap="gen_picture"> 生成小人 </button>
+</view>

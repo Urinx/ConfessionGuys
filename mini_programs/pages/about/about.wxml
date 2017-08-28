@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="userinfo">
+        <image class="userinfo-avatar" src="{{authoravatar}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{author}}</text>
+    </view>
+
+    <view class="about">
+        <button bindtap="about_btn"> 关于 </button>
+        <button bindtap="feedback_btn"> 问题反馈 </button>
+        <button bindtap="update_btn"> 更新日志 </button>
+    </view>
+</view>

@@ -1,0 +1,40 @@
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200rpx;
+}
+
+.userinfo-avatar {
+    width: 200rpx;
+    height: 200rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #fff;
+}
+
+.about {
+    margin-top: 20%;
+    width: 100%;
+}
+
+.about button {
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    text-align: left;
+    border-radius: 0;
+    padding-left: 80rpx;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}

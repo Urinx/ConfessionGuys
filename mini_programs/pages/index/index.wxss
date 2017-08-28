@@ -1,0 +1,45 @@
+/**index.wxss**/
+
+.icon_frame{
+    margin-top: 80rpx;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    width: 200rpx;
+    height: 200rpx;
+}
+
+.input_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50rpx;
+    color: #aaa;
+}
+
+.input_text input {
+    width: 150px;
+    height: 40px;
+    border: solid #eeeeee 1px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+
+.input_text textarea {
+    height: 150px;
+    border: solid #eeeeee 1px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.gen_picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

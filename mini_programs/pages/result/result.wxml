@@ -1,0 +1,19 @@
+<!--logs.wxml-->
+<view class="container">
+
+    <canvas canvas-id="men_canvas" class="men_canvas" style="height:{{canvas_height}}px"></canvas>
+
+    <view class="btn">
+        <button open-type="share" style="display: {{share_btn_display}}"> 分享 </button>
+        <button bindtap="{{btn_fn}}" style="width: {{btn_width}};"> {{btn_title}} </button>
+    </view>
+
+    <view class="bgcolor_selector" hidden="{{hide_bgcolor_selector}}">
+        <div bindtap="change_bgcolor" data-bgcolor="{{bgcolor0}}" style="background-color:{{bgcolor0}};"></div>
+        <div bindtap="change_bgcolor" data-bgcolor="{{bgcolor1}}" style="background-color:{{bgcolor1}};"></div>
+        <div bindtap="change_bgcolor" data-bgcolor="{{bgcolor2}}" style="background-color:{{bgcolor2}};"></div>
+        <div bindtap="change_bgcolor" data-bgcolor="{{bgcolor3}}" style="background-color:{{bgcolor3}};"></div>
+        <div bindtap="change_bgcolor" data-bgcolor="{{bgcolor4}}" style="background-color:{{bgcolor4}};"></div>
+    </view>
+
+</view>

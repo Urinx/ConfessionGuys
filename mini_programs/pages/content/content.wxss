@@ -1,0 +1,22 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: white;
+    margin: 30rpx;
+}
+
+p {
+    padding: 20rpx 0;
+    word-wrap: break-word;
+}
+
+image {
+    width: 230rpx;
+    height: 230rpx;
+    padding: auto;
+    align-self: center;
+    padding: 20rpx 0;
+}

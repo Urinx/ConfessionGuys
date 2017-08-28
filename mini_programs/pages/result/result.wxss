@@ -1,0 +1,35 @@
+.men_canvas {
+	width: 100%;
+	/*height: 370px;*/
+	margin: 0;
+}
+.btn {
+	margin: 7% 10%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+.btn button {
+	width: 40%;
+}
+
+.container {
+	padding: 0;
+}
+.bgcolor_selector {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 10px;
+}
+.bgcolor_selector div {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	border-radius: 50%;
+}
