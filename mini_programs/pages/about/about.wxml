@@ -8,5 +8,6 @@
         <button bindtap="about_btn"> 关于 </button>
         <button bindtap="feedback_btn"> 问题反馈 </button>
         <button bindtap="update_btn"> 更新日志 </button>
+        <button open-type="contact"> 客服会话 </button>
     </view>
 </view>
