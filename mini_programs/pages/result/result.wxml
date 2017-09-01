@@ -4,8 +4,17 @@
     <canvas canvas-id="men_canvas" class="men_canvas" style="height:{{canvas_height}}px"></canvas>
 
     <view class="btn">
-        <button open-type="share" style="display: {{share_btn_display}}"> 分享 </button>
-        <button bindtap="{{btn_fn}}" style="width: {{btn_width}};"> {{btn_title}} </button>
+        <block wx:if="{{back_to_index != 1}}">
+            <button open-type="share" class="img_btn">
+                <image src="/imgs/wechat3.png"></image>
+            </button>
+            <button bindtap="save_pic" class="img_btn">
+                <image src="/imgs/save.png"></image>
+            </button>
+        </block>
+        <block wx:else>
+            <button bindtap="back_to_index" class="make_new"> 创作自己的告白小人 </button>
+        </block>
     </view>
 
     <view class="bgcolor_selector" hidden="{{hide_bgcolor_selector}}">

@@ -38,7 +38,9 @@ Page({
             this.data.input_text = options.input_text
         }
         this.data.input_text_arr = this.data.input_text.split('\n')
-        this.data.back_to_index = options.back_to_index
+        this.setData({
+            back_to_index: options.back_to_index
+        })
 
         // Easter egg
         if (this.data.input_name == util.aes_decrypt(this.data.key_word)) {
@@ -58,22 +60,6 @@ Page({
         wx.setNavigationBarTitle({
             title: this.data.input_name
         })
-
-        if (this.data.back_to_index == 1) {
-            this.setData({
-                btn_title: '创作自己的告白小人',
-                btn_fn: 'back_to_index',
-                btn_width: '100%',
-                share_btn_display: 'none'
-            })
-        } else {
-            this.setData({
-                btn_title: '保存',
-                btn_fn: 'save_pic',
-                btn_width: '40%',
-                share_btn_display: 'block'
-            })
-        }
 
         wx.getSystemInfo({
             success: function(res) {

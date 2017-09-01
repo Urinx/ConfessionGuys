@@ -21,5 +21,28 @@ Page({
     },
     listen_input_text: function(e) {
         this.data.input_text = e.detail.value
-    }
+    },
+    // onLoad: function(){
+    //     this.get_access_token()
+    // },
+    // get_access_token: function(){
+    //     var url = 'https://api.weixin.qq.com/cgi-bin/token'
+    //     var appid = 'wx133b7f49e64065cc'
+    //     var appsecret = 'cc5905fb975bc9da62d3028176827f39'
+    //     wx.request({
+    //         url: url,
+    //         method: 'GET',
+    //         data: {
+    //             grant_type: 'client_credential',
+    //             appid: appid,
+    //             secret: appsecret
+    //         },
+    //         header: {
+    //             'content-type': 'application/json'
+    //         },
+    //         success: function(res) {
+    //             console.log(res)
+    //         }
+    //     })
+    // }
 })

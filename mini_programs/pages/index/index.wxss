@@ -43,3 +43,7 @@
     flex-direction: column;
     align-items: center;
 }
+
+.gen_picture button {
+    background-color: #fff;
+}

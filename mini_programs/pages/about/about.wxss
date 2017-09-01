@@ -23,11 +23,15 @@
 
 .about button {
     width: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0);
     color: white;
     text-align: left;
     border-radius: 0;
     padding-left: 80rpx;
+}
+
+.about button::after {
+    border: none;
 }
 
 .container {
